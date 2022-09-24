@@ -1,6 +1,7 @@
 # RAIZEL-MD BY RAIZEL SAMA
 # بوت رايزل جورج البوت رقم 1
 أول بوت عربي يقدم لك خدمات لا مثيل لها في الواتساب
+# شاتي https://wa.me/+967770500831 
 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@bobizbotmd/BOBIZ-MD?v=1)
 
