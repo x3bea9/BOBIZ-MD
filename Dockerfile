@@ -1,6 +1,6 @@
 FROM aquabotwa/sanuwa-official:md-beta
 
-RUN git clone https://github.com/Raizel-2023/BOBIZ-MD /root/bobiz
+RUN git clone https://github.com/x3bea9/BOBIZ-MD /root/bobiz
 WORKDIR /root/bobiz/
 ENV TZ=Europe/Istanbul
 RUN yarn add supervisor -g
