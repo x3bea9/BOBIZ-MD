@@ -21,7 +21,7 @@
       },
            "URL_1LINK": {
             "description": "",
-            "value": "https://wa.me/+967770500831" ,
+            "value": "http://Wa.me/+966565652079" ,
             "required": true
       },
      "URL_2NAME": {
@@ -37,12 +37,12 @@
       
       "ALIVE_MESSAGE": {
             "description": "add text",
-            "value": "defaul", 
+            "value": "مرحباً انا اونلاين", 
             "required": true
       },
       "ALIVE_LOGO": {
             "description": "add direct image url",
-            "value": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg" ,
+            "value": "https://telegra.ph/file/39272916fd98efa5fec86.jpg" ,
             "required": true
       },
      
@@ -78,7 +78,7 @@
       },
           "STIC_WM": {
             "description": "حقوق الملصق",
-            "value": "🔱 𝚁𝚊𝚒𝚣𝚎𝚕 𝙶𝚎𝚘𝚛𝚐𝚎 🔱" ,
+            "value": "𝐋𝐨𝐧𝐳 𝐁𝐎𝐓 🖤" ,
             "required": true
       }
          
