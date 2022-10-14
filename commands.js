@@ -200,8 +200,8 @@ mek = mek.messages[0]
  //_______________________________________________________________________________________________________________________________________________________   //		      
 		     // mediafire //
 		      
-	      case "mediafire" :
-	      case "ميديافاير" : 
+	      case "mediafiree" :
+	      case "ميديافايرر" : 
 		try {
 		if (!q) return await conn.sendMessage(from , { text: 'أين هو رابط الميديافاير الدي تود تحميله يا بني' }, { quoted: mek } )
 		if (!q.includes('mediafire.com/file')) return await conn.sendMessage(from , { text: 'need mediafire link' }, { quoted: mek } )
@@ -224,9 +224,9 @@ mek = mek.messages[0]
  //_______________________________________________________________________________________________________________________________________________________   //		      
 		      // instagram //
 		      
-	      case "ig" :
-	      case "انستغرام" :
-              case "انستجرام":
+	      case "iigg" :
+	      case "انستاا" :
+              case "انستغرامم":
 		try {
 		if (!q) return await conn.sendMessage(from , { text: 'أين هو رابط فيديو انستغرام الدي تود تحميله عزيزي ' }, { quoted: mek } )
 		if (!q.includes('instagram.com')) return await conn.sendMessage(from , { text: 'need instagram link' }, { quoted: mek } )
@@ -248,8 +248,8 @@ mek = mek.messages[0]
 //_______________________________________________________________________________________________________________________________________________________   //	      
 		      // tiktok //
 		      
-	      case "تيكتوك" :
-	      case "tiktok" : 
+	      case "تكتك" :
+	      case "tiktokk" : 
 		try {
 		if (!q) return await conn.sendMessage(from , { text: 'need tiktok link' }, { quoted: mek } )
 		if (!q.includes('tiktok')) return await conn.sendMessage(from , { text: 'need tiktok link' }, { quoted: mek } )
@@ -271,8 +271,8 @@ mek = mek.messages[0]
  //_______________________________________________________________________________________________________________________________________________________   //		      
 		      // facebook //
 		      
-	      case 'فيسبوك' :
-	      case 'facebook' :
+	      case 'فسبك' :
+	      case 'fcbk' :
 	      try {
 	     if (!q) return await conn.sendMessage(from , { text: 'need fb link  اين هو رابط فيديو الفيسبوك الذي تريد تحميله' }, { quoted: mek } )      
 	     const isfb = q.includes('facebook.com')? q.includes('facebook.com') : q.includes('fb.watch')? q.includes('fb.watch') : ''
@@ -330,10 +330,10 @@ mek = mek.messages[0]
 		      
 		      // youtube //
 		      
-	        case 'بحث' :
-		case 'ytd' :
-		case 'song' :
-		case 'video' : 
+	        case 'بحثث' :
+		case 'ytdd' :
+		case 'songg' :
+		case 'videooo' : 
 		   try {
 			if (!q) return await conn.sendMessage(from , { text: 'need title' }, { quoted: mek } )   
 			const ytl = await ytinfo(q)
@@ -469,7 +469,7 @@ await conn.sendMessage(from, { delete: docsongup.key })
 	      break  
   // _ _ _ _ _ _ _ _ __  _ _ _ _ _ _  __  _ _ _ __ _  __ _  _ _ _ _ __ _ _  __  __ _  _ __  _ __ _ _ _  _ __ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __  __ _  __ _ _ _ _   //   		      
 		      
-	      case 'yts' :
+	      case 'ytss' :
 		      try {
 		      if (!q) return await conn.sendMessage(from , { text: 'أكتب عنوان الفيديو الدي تود البحث عنه'  }, { quoted: mek } )
 		try {
@@ -570,8 +570,6 @@ await conn.sendMessage(from , { text: 'تعذر ارسال التطبيق آسف
 ╭────────────────────╮
 │  ⸙ .sticker         صناعة ملصقات
 │  ⸙ .apk             تحميل تطبيقات
-│  ⸙ .tiktok        التحميل من تيكتوك
-│  ⸙ .yts           البحث في اليوتوب
 │  ⸙ .mediafire     تحميل ملف ميديافاير
 ╰────────────────────╯
      𝙱𝚈 𝐋𝐨𝐧𝐳 𝐁𝐎𝐓 🖤 𝟸𝟶𝟸𝟸`
