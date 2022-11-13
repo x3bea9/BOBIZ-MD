@@ -140,16 +140,16 @@ mek = mek.messages[0]
 		     .then(x => v.replyS(x))
          await conn.sendMessage(from, { delete: cstic.key })
          } else {
-	       v.reply(' يبني مو كذا تسوي ملصقات اكتب الأمر في وصف الصورة او سوي تعليق عليها 🤬')
+	       v.reply('*_اذا تبي تسوي ستكر اكتب الأمر في وصف الصورة او سوي رد عليها 🦆 واق_*')
         }
               break 
    // _ _ _ _ _ _ _ _ __  _ _ _ _ _ _  __  _ _ _ __ _  __ _  _ _ _ _ __ _ _  __  __ _  _ __  _ __ _ _ _  _ __ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __  __ _  __ _ _ _ _   //      
-	      case 'زرف' :
-              case 'سرقة' :
+	      case 'ازرف' :
+              case 'اسرق' :
               case 'take'  :
-              case 'سرقه':
+              case 'wm'  :
 		      try {
-	      if(!q) return await conn.sendMessage(from , { text: 'enter packname and creater name\n ex : '  + prefix + 'sticget bobiz sticker;multi device' }, { quoted: mek } )
+	      if(!q) return await conn.sendMessage(from , { text: '*_بدت_*' }, { quoted: mek } )
 		var packname = '' 
 		var creater = '' 
 		if (q.includes(';')) {
@@ -228,7 +228,7 @@ mek = mek.messages[0]
 	      case "انستاا" :
               case "انستغرامم":
 		try {
-		if (!q) return await conn.sendMessage(from , { text: 'أين هو رابط فيديو انستغرام الدي تود تحميله عزيزي ' }, { quoted: mek } )
+		if (!q) return await conn.sendMessage(from , { text: '*_حط الرابط بعد الأمر ❕_*' }, { quoted: mek } )
 		if (!q.includes('instagram.com')) return await conn.sendMessage(from , { text: 'need instagram link' }, { quoted: mek } )
 		const data = await axios.get('https://bobiz-api.herokuapp.com/api/ig?url=' + q)
 		const file = data.data[0]
@@ -471,7 +471,7 @@ await conn.sendMessage(from, { delete: docsongup.key })
 		      
 	      case 'ytss' :
 		      try {
-		      if (!q) return await conn.sendMessage(from , { text: 'أكتب عنوان الفيديو الدي تود البحث عنه'  }, { quoted: mek } )
+		      if (!q) return await conn.sendMessage(from , { text: 'اكتب عنوان المقطع'  }, { quoted: mek } )
 		try {
 var arama = await yts(q);
 } catch(e) {
