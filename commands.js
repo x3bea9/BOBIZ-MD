@@ -19,10 +19,7 @@ const fs = require('fs');
 const ownerNumber = ['966565652079']
 const prefix = '.'
 const axios = require('axios');
-const { yt720 ,  yt480 ,  yt360 } = require('./lib/ytmp4');
-const ytmp3 = require('./lib/ytmp3');
 const apk_link = require('./lib/playstore');
-const yts = require( 'yt-search' )
 
 
 async function ytinfo(name) {
